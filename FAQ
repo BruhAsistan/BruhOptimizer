@@ -1,27 +1,27 @@
-## **Sıkça Sorulan Sorular (SSS)**
+**Sıkça Sorulan Sorular (SSS)**
 
 SSS bölümümüze hoş geldiniz! Bu bölümde uygulamamızla ilgili sıkça sorulan soruları ve kullanıcıların yaşadığı yaygın durumları yanıtlıyoruz. Burada listelenmeyen bir sorunuz varsa, lütfen destek ekibimizle iletişime geçin.
 
 ---
 
-### **Yapılan değişikliklerin etkili olması için bilgisayarımı yeniden başlatmam gerekiyor mu?**
+**Yapılan değişikliklerin etkili olması için bilgisayarımı yeniden başlatmam gerekiyor mu?**
 Kesinlikle. Uygulamamız üzerinden yaptığınız değişikliklerin uygulanması ve tam olarak işlevsel hale gelmesi için bilgisayarınızı yeniden başlatmanız gereklidir.
 
 ---
 
-### **Uygulamayı arka planda açık bırakmam gerekiyor mu?**
+**Uygulamayı arka planda açık bırakmam gerekiyor mu?**
 Hayır. Uygulamada tercih ettiğiniz seçenekleri etkinleştirdikten sonra, değişikliklerin uygulanması için yalnızca bilgisayarınızı yeniden başlatmanız yeterlidir. Uygulamayı arka planda açık tutmanız gerekmez.
 
 ---
 
-### **Masaüstü dosyalarım ve belgelerim aniden silindi! Neden?**
+**Masaüstü dosyalarım ve belgelerim aniden silindi! Neden?**
 Masaüstünüzdeki dosya ve belgelerin beklenmedik şekilde silinmesi, genellikle OneDrive’ın kaldırılmasıyla ilişkilidir.  
 Microsoft hesabıyla senkronize çalışan Windows 10/11 sistemlerinde OneDrive’ı kaldırmaktan kaçınmanız önemlidir.  
 OneDrive yalnızca **yeni kurulmuş bir Windows sisteminde**, Microsoft hesabını kurmadan önce kaldırılmalıdır.
 
 ---
 
-### **Windows 10/11’de Windows Defender’ı nasıl devre dışı bırakırım?**
+**Windows 10/11’de Windows Defender’ı nasıl devre dışı bırakırım?**
 Lütfen **"Disable Windows Defender" seçeneğinin yalnızca Windows 7/8/8.1** sistemlerinde çalıştığını unutmayın.  
 Windows 10/11’de Windows Defender’ı devre dışı bırakmak için şu adımları takip edin:
 
@@ -32,30 +32,30 @@ Windows 10/11’de Windows Defender’ı devre dışı bırakmak için şu adım
 
 ---
 
-### **Oyunlarım çalışmayı durdurdu veya sorun yaşıyorum!**
+**Oyunlarım çalışmayı durdurdu veya sorun yaşıyorum!**
 "Enhance Privacy", "Disable Xbox Live" ve "Disable Game Bar" seçeneklerini sıfırlayın ve bilgisayarınızı yeniden başlatın.  
 Sorun devam ederse bir destek talebi (issue) açabilirsiniz.
 
 ---
 
-### **System Restore’u devre dışı bırakmalı mıyım?**
+**System Restore’u devre dışı bırakmalı mıyım?**
 Bu tamamen sizin tercihinize bağlıdır. Ancak System Restore’u devre dışı bırakırsanız mevcut yedekleriniz silinir.  
 Karar vermeden önce olası riskleri ve sonuçları değerlendirmeniz önerilir.
 
 ---
 
-### **Print Service veya Fax Service’i devre dışı bırakmalı mıyım?**
+**Print Service veya Fax Service’i devre dışı bırakmalı mıyım?**
 Yazıcı veya faks cihazlarını aktif olarak kullanıyorsanız bu hizmetleri devre dışı bırakmamanız önerilir.  
 Aksi takdirde bu cihazları kullanmanız mümkün olmayabilir.
 
 ---
 
-### **Windows Hello, Parmak izi veya Biyometri çalışmayı durdurdu! Neden?**
+**Windows Hello, Parmak izi veya Biyometri çalışmayı durdurdu! Neden?**
 "Enhance Privacy" ayarını sıfırlayın ve bilgisayarınızı yeniden başlatın.
 
 ---
 
-### **Xbox Live’a giriş yapamıyorum! Neden?**
+**Xbox Live’a giriş yapamıyorum! Neden?**
 Xbox Live oturum açma sorunlarını çözmek için şu adımları izleyin:
 
 1. "Disable Xbox Live" ve "Disable Game Bar" ayarlarını sıfırlayın.
@@ -64,7 +64,7 @@ Xbox Live oturum açma sorunlarını çözmek için şu adımları izleyin:
 
 ---
 
-### **Dijital kalemim çalışmıyor, neden?**
+**Dijital kalemim çalışmıyor, neden?**
 Dijital kaleminizin çalışmamasının nedeni "Disable Windows Ink" ayarı olabilir. Çözüm için:
 
 1. "Disable Windows Ink" seçeneğini sıfırlayın.
@@ -73,18 +73,18 @@ Dijital kaleminizin çalışmamasının nedeni "Disable Windows Ink" ayarı olab
 
 ---
 
-### **Pano geçmişim (Clipboard History) çalışmıyor, neden?**
+**Pano geçmişim (Clipboard History) çalışmıyor, neden?**
 1. "Disable Cloud Clipboard" ayarını sıfırlayın.
 2. Pano geçmişinin tekrar çalışıp çalışmadığını kontrol edin.
 
 ---
 
-### **Phone Link uygulamam aniden çalışmayı durdurdu!**
+**Phone Link uygulamam aniden çalışmayı durdurdu!**
 "Enhance Privacy" ayarını sıfırlayın ve bilgisayarınızı yeniden başlatın.
 
 ---
 
-### **Sensor Services’i devre dışı bırakmalı mıyım?**
+**Sensor Services’i devre dışı bırakmalı mıyım?**
 Cihazınız:
 
 - Tablet ise
