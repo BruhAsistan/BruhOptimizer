@@ -1,55 +1,108 @@
-Frequently Asked Questions (FAQ)
-Welcome to our FAQ section, where we address common queries and concerns regarding our application. We're here to help you make the most out of your experience. If you have a question that isn't covered here, please feel free to reach out to our support team.
+Sıkça Sorulan Sorular (SSS)
 
-Do I need to restart my computer for the changes to take effect?
-Absolutely. Restarting your computer is essential for the changes you've made through our application to be applied and fully functional.
+SSS bölümümüze hoş geldiniz. Burada uygulamamızla ilgili sıkça sorulan sorulara ve endişelere yanıt veriyoruz. Deneyiminizden en iyi şekilde yararlanmanıza yardımcı olmak için buradayız. Eğer burada yer almayan bir sorunuz varsa, lütfen destek ekibimizle iletişime geçin.
 
-Do I need to keep the app running in the background?
-No, you don't need to keep the app running in the background. Once you've enabled your preferred options, simply restart your computer to ensure the changes take effect.
+Yapılan değişikliklerin etkili olması için bilgisayarımı yeniden başlatmam gerekiyor mu?
 
-My Desktop files and documents got suddenly deleted! Why?
-If you've experienced unexpected file and document deletions on your Desktop, it's possible that these deletions are related to uninstalling OneDrive. It's crucial to avoid uninstalling OneDrive on a Windows 10/11 system with a Microsoft-synced account setup. It's recommended to uninstall OneDrive only on a fresh Windows installation, before setting up your Microsoft account.
+Kesinlikle. Bilgisayarınızı yeniden başlatmak, uygulamamız aracılığıyla yaptığınız değişikliklerin uygulanması ve tam olarak aktif olması için gereklidir.
 
-How can I disable Windows Defender on Windows 10/11?
-Please note that the "Disable Windows Defender" toggle is only functional on Windows 7/8/8.1 systems. To effectively disable Windows Defender on Windows 10/11, follow these steps:
+Uygulamayı arka planda açık bırakmam gerekir mi?
 
-Execute the app with the command /restart=disabledefender.
-This will initiate a restart in safe mode, during which Windows Defender will be disabled.
-After the safe mode restart, your system will restart in normal mode with Windows Defender disabled.
-You can re-enable Windows Defender at any time using the command /restart=enabledefender.
-My games stopped working or I am experiencing issues with them!
-You should reset "Enhance Privacy", "Disable Xbox Live", "Disable Game Bar" and restart your computer. If the problem persists, you may open an issue.
+Hayır, uygulamayı arka planda açık bırakmanız gerekmez. Tercih ettiğiniz seçenekleri etkinleştirdikten sonra, değişikliklerin etkili olması için yalnızca bilgisayarınızı yeniden başlatmanız yeterlidir.
 
-Should I disable System Restore?
-The decision to disable System Restore is up to you. Keep in mind that disabling it will result in the deletion of your existing backups. Consider the implications and potential risks before making this choice.
+Masaüstü dosyalarım ve belgelerim aniden silindi! Neden?
 
-Should I disable Print Service or Fax Service?
-If you actively use printer and/or fax devices, it's advisable not to disable these services. Disabling them might hinder your ability to use these devices effectively.
+Masaüstünüzde beklenmedik dosya veya belge silinmeleri yaşadıysanız, bu durum OneDrive'ın kaldırılmasıyla ilişkili olabilir. Microsoft hesabıyla senkronize edilmiş bir Windows 10/11 sisteminde OneDrive'ı kaldırmaktan kaçınmanız önemlidir. OneDrive'ı yalnızca yeni kurulmuş bir Windows sisteminde, Microsoft hesabını kurmadan önce kaldırmanız önerilir.
 
-My Windows Hello, Fingerprint and Biometrics stopped working! Why?
-You should reset the "Enhance Privacy" and restart your computer.
+Windows 10/11’de Windows Defender’ı nasıl devre dışı bırakırım?
 
-I cannot log in to Xbox Live! Why?
-If you're facing login issues with Xbox Live, follow these steps to troubleshoot:
+Lütfen “Disable Windows Defender” seçeneğinin yalnızca Windows 7/8/8.1 sistemlerinde çalıştığını unutmayın.
+Windows 10/11’de Defender’ı devre dışı bırakmak için şu adımları izleyin:
 
-Reset both the "Disable Xbox Live" and "Disable Game Bar" options within our application.
-Restart your computer to ensure the changes take effect.
-Attempt to log in to Xbox Live again.
-My digital pen is not working, why?
-If your digital pen is not functioning, it might be related to the "Disable Windows Ink" setting. To resolve this:
+Uygulamayı /restart=disabledefender komutuyla çalıştırın.
 
-Reset the "Disable Windows Ink" option in our application.
-Restart your computer.
-Your digital pen should now be functional again.
-My clipboard history stopped working, why?
-If your clipboard history has stopped working, try these steps:
+Bu işlem sırasında bilgisayar Güvenli Modda yeniden başlatılır ve Windows Defender devre dışı bırakılır.
 
-Reset the "Disable Cloud Clipboard" setting in our application.
-Verify if the clipboard history is now functioning as expected.
-My Phone Link suddenly stopped working!
-You should reset the "Enhance Privacy" and restart your computer.
+Güvenli moddan sonra sistem normal moda döner ve Defender devre dışı olarak çalışmaya devam eder.
 
-Should I disable Sensor Services?
-If your device is a tablet, has various sensors (proximity, auto-brightness, etc.), or features a touch screen, it's recommended not to disable Sensor Services. These services likely contribute to the functionality of these features on your device.
+Windows Defender’ı tekrar etkinleştirmek için:
 
-We hope these answers have provided clarity on common questions. If you require further assistance, please don't hesitate to reach out to our support team for personalized help.
+/restart=enabledefender komutunu kullanabilirsiniz.
+
+Oyunlarım çalışmamaya başladı veya sorun yaşıyorum!
+
+Şu seçenekleri sıfırlamalısınız:
+
+Enhance Privacy
+
+Disable Xbox Live
+
+Disable Game Bar
+
+Daha sonra bilgisayarınızı yeniden başlatın.
+Sorun devam ediyorsa bir “issue” açabilirsiniz.
+
+System Restore’u devre dışı bırakmalı mıyım?
+
+Bu tamamen sizin kararınıza bağlıdır. Ancak şunu unutmayın: System Restore’u devre dışı bırakırsanız mevcut yedekleriniz silinir. Bu kararı vermeden önce riskleri ve olası sonuçları değerlendirmenizi öneririz.
+
+Print Service veya Fax Service’i devre dışı bırakmalı mıyım?
+
+Yazıcı veya fax cihazlarını aktif olarak kullanıyorsanız bu hizmetleri devre dışı bırakmanız önerilmez. Aksi takdirde bu cihazları kullanamayabilirsiniz.
+
+Windows Hello, Parmak izi ve Biyometri çalışmayı durdurdu! Neden?
+
+Enhance Privacy seçeneğini sıfırlayın.
+
+Bilgisayarınızı yeniden başlatın.
+
+Bu işlemden sonra biyometrik özellikler tekrar çalışacaktır.
+
+Xbox Live’a giriş yapamıyorum! Neden?
+
+Aşağıdaki adımları takip edin:
+
+Disable Xbox Live ve Disable Game Bar seçeneklerini sıfırlayın.
+
+Bilgisayarınızı yeniden başlatın.
+
+Xbox Live’a tekrar giriş yapmayı deneyin.
+
+Dijital kalemim çalışmıyor, neden?
+
+Bu durum genellikle Disable Windows Ink ayarıyla ilgilidir.
+
+Disable Windows Ink seçeneğini sıfırlayın.
+
+Bilgisayarınızı yeniden başlatın.
+
+Bu işlemden sonra dijital kaleminiz yeniden çalışacaktır.
+
+Pano geçmişim (Clipboard History) çalışmayı durdurdu, neden?
+
+Disable Cloud Clipboard ayarını sıfırlayın.
+
+Yeniden başlatma sonrası pano geçmişini kontrol edin.
+
+Phone Link uygulamam bir anda çalışmayı durdurdu!
+
+Enhance Privacy ayarını sıfırlayın.
+
+Bilgisayarınızı yeniden başlatın.
+
+Sensor Services’i devre dışı bırakmalı mıyım?
+
+Cihazınızın aşağıdaki özellikleri varsa Sensor Services’i devre dışı bırakmamanız önerilir:
+
+Tablet form faktörü
+
+Yakınlık / ortam ışığı sensörleri
+
+Dokunmatik ekran
+
+Otomatik parlaklık vb.
+
+Bu servisler bu özelliklerin çalışması için gereklidir.
+
+Umarız bu cevaplar sıkça karşılaşılan sorulara açıklık getirmiştir.
+Ek yardıma ihtiyacınız varsa destek ekibimizle iletişime geçmekten çekinmeyin.
