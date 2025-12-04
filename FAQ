@@ -1,108 +1,100 @@
-Sıkça Sorulan Sorular (SSS)
+## **Sıkça Sorulan Sorular (SSS)**
 
-SSS bölümümüze hoş geldiniz. Burada uygulamamızla ilgili sıkça sorulan sorulara ve endişelere yanıt veriyoruz. Deneyiminizden en iyi şekilde yararlanmanıza yardımcı olmak için buradayız. Eğer burada yer almayan bir sorunuz varsa, lütfen destek ekibimizle iletişime geçin.
+SSS bölümümüze hoş geldiniz! Bu bölümde uygulamamızla ilgili sıkça sorulan soruları ve kullanıcıların yaşadığı yaygın durumları yanıtlıyoruz. Burada listelenmeyen bir sorunuz varsa, lütfen destek ekibimizle iletişime geçin.
 
-Yapılan değişikliklerin etkili olması için bilgisayarımı yeniden başlatmam gerekiyor mu?
+---
 
-Kesinlikle. Bilgisayarınızı yeniden başlatmak, uygulamamız aracılığıyla yaptığınız değişikliklerin uygulanması ve tam olarak aktif olması için gereklidir.
+### **Yapılan değişikliklerin etkili olması için bilgisayarımı yeniden başlatmam gerekiyor mu?**
+Kesinlikle. Uygulamamız üzerinden yaptığınız değişikliklerin uygulanması ve tam olarak işlevsel hale gelmesi için bilgisayarınızı yeniden başlatmanız gereklidir.
 
-Uygulamayı arka planda açık bırakmam gerekir mi?
+---
 
-Hayır, uygulamayı arka planda açık bırakmanız gerekmez. Tercih ettiğiniz seçenekleri etkinleştirdikten sonra, değişikliklerin etkili olması için yalnızca bilgisayarınızı yeniden başlatmanız yeterlidir.
+### **Uygulamayı arka planda açık bırakmam gerekiyor mu?**
+Hayır. Uygulamada tercih ettiğiniz seçenekleri etkinleştirdikten sonra, değişikliklerin uygulanması için yalnızca bilgisayarınızı yeniden başlatmanız yeterlidir. Uygulamayı arka planda açık tutmanız gerekmez.
 
-Masaüstü dosyalarım ve belgelerim aniden silindi! Neden?
+---
 
-Masaüstünüzde beklenmedik dosya veya belge silinmeleri yaşadıysanız, bu durum OneDrive'ın kaldırılmasıyla ilişkili olabilir. Microsoft hesabıyla senkronize edilmiş bir Windows 10/11 sisteminde OneDrive'ı kaldırmaktan kaçınmanız önemlidir. OneDrive'ı yalnızca yeni kurulmuş bir Windows sisteminde, Microsoft hesabını kurmadan önce kaldırmanız önerilir.
+### **Masaüstü dosyalarım ve belgelerim aniden silindi! Neden?**
+Masaüstünüzdeki dosya ve belgelerin beklenmedik şekilde silinmesi, genellikle OneDrive’ın kaldırılmasıyla ilişkilidir.  
+Microsoft hesabıyla senkronize çalışan Windows 10/11 sistemlerinde OneDrive’ı kaldırmaktan kaçınmanız önemlidir.  
+OneDrive yalnızca **yeni kurulmuş bir Windows sisteminde**, Microsoft hesabını kurmadan önce kaldırılmalıdır.
 
-Windows 10/11’de Windows Defender’ı nasıl devre dışı bırakırım?
+---
 
-Lütfen “Disable Windows Defender” seçeneğinin yalnızca Windows 7/8/8.1 sistemlerinde çalıştığını unutmayın.
-Windows 10/11’de Defender’ı devre dışı bırakmak için şu adımları izleyin:
+### **Windows 10/11’de Windows Defender’ı nasıl devre dışı bırakırım?**
+Lütfen **"Disable Windows Defender" seçeneğinin yalnızca Windows 7/8/8.1** sistemlerinde çalıştığını unutmayın.  
+Windows 10/11’de Windows Defender’ı devre dışı bırakmak için şu adımları takip edin:
 
-Uygulamayı /restart=disabledefender komutuyla çalıştırın.
+1. Uygulamayı şu komutla çalıştırın: `/restart=disabledefender`
+2. Bilgisayar güvenli modda yeniden başlatılacak ve bu sırada Windows Defender devre dışı bırakılacaktır.
+3. Güvenli mod sonrasında sistem normal moda yeniden başlar ve Defender devre dışı durumda kalır.
+4. Defender’ı tekrar etkinleştirmek için `/restart=enabledefender` komutunu kullanabilirsiniz.
 
-Bu işlem sırasında bilgisayar Güvenli Modda yeniden başlatılır ve Windows Defender devre dışı bırakılır.
+---
 
-Güvenli moddan sonra sistem normal moda döner ve Defender devre dışı olarak çalışmaya devam eder.
+### **Oyunlarım çalışmayı durdurdu veya sorun yaşıyorum!**
+"Enhance Privacy", "Disable Xbox Live" ve "Disable Game Bar" seçeneklerini sıfırlayın ve bilgisayarınızı yeniden başlatın.  
+Sorun devam ederse bir destek talebi (issue) açabilirsiniz.
 
-Windows Defender’ı tekrar etkinleştirmek için:
+---
 
-/restart=enabledefender komutunu kullanabilirsiniz.
+### **System Restore’u devre dışı bırakmalı mıyım?**
+Bu tamamen sizin tercihinize bağlıdır. Ancak System Restore’u devre dışı bırakırsanız mevcut yedekleriniz silinir.  
+Karar vermeden önce olası riskleri ve sonuçları değerlendirmeniz önerilir.
 
-Oyunlarım çalışmamaya başladı veya sorun yaşıyorum!
+---
 
-Şu seçenekleri sıfırlamalısınız:
+### **Print Service veya Fax Service’i devre dışı bırakmalı mıyım?**
+Yazıcı veya faks cihazlarını aktif olarak kullanıyorsanız bu hizmetleri devre dışı bırakmamanız önerilir.  
+Aksi takdirde bu cihazları kullanmanız mümkün olmayabilir.
 
-Enhance Privacy
+---
 
-Disable Xbox Live
+### **Windows Hello, Parmak izi veya Biyometri çalışmayı durdurdu! Neden?**
+"Enhance Privacy" ayarını sıfırlayın ve bilgisayarınızı yeniden başlatın.
 
-Disable Game Bar
+---
 
-Daha sonra bilgisayarınızı yeniden başlatın.
-Sorun devam ediyorsa bir “issue” açabilirsiniz.
+### **Xbox Live’a giriş yapamıyorum! Neden?**
+Xbox Live oturum açma sorunlarını çözmek için şu adımları izleyin:
 
-System Restore’u devre dışı bırakmalı mıyım?
+1. "Disable Xbox Live" ve "Disable Game Bar" ayarlarını sıfırlayın.
+2. Bilgisayarınızı yeniden başlatın.
+3. Tekrar giriş yapmayı deneyin.
 
-Bu tamamen sizin kararınıza bağlıdır. Ancak şunu unutmayın: System Restore’u devre dışı bırakırsanız mevcut yedekleriniz silinir. Bu kararı vermeden önce riskleri ve olası sonuçları değerlendirmenizi öneririz.
+---
 
-Print Service veya Fax Service’i devre dışı bırakmalı mıyım?
+### **Dijital kalemim çalışmıyor, neden?**
+Dijital kaleminizin çalışmamasının nedeni "Disable Windows Ink" ayarı olabilir. Çözüm için:
 
-Yazıcı veya fax cihazlarını aktif olarak kullanıyorsanız bu hizmetleri devre dışı bırakmanız önerilmez. Aksi takdirde bu cihazları kullanamayabilirsiniz.
+1. "Disable Windows Ink" seçeneğini sıfırlayın.
+2. Bilgisayarınızı yeniden başlatın.
+3. Dijital kaleminiz yeniden çalışacaktır.
 
-Windows Hello, Parmak izi ve Biyometri çalışmayı durdurdu! Neden?
+---
 
-Enhance Privacy seçeneğini sıfırlayın.
+### **Pano geçmişim (Clipboard History) çalışmıyor, neden?**
+1. "Disable Cloud Clipboard" ayarını sıfırlayın.
+2. Pano geçmişinin tekrar çalışıp çalışmadığını kontrol edin.
 
-Bilgisayarınızı yeniden başlatın.
+---
 
-Bu işlemden sonra biyometrik özellikler tekrar çalışacaktır.
+### **Phone Link uygulamam aniden çalışmayı durdurdu!**
+"Enhance Privacy" ayarını sıfırlayın ve bilgisayarınızı yeniden başlatın.
 
-Xbox Live’a giriş yapamıyorum! Neden?
+---
 
-Aşağıdaki adımları takip edin:
+### **Sensor Services’i devre dışı bırakmalı mıyım?**
+Cihazınız:
 
-Disable Xbox Live ve Disable Game Bar seçeneklerini sıfırlayın.
+- Tablet ise
+- Proximity / otomatik parlaklık gibi sensörler içeriyorsa
+- Dokunmatik ekrana sahipse
 
-Bilgisayarınızı yeniden başlatın.
+**Sensor Services’i devre dışı bırakmanız önerilmez.**  
+Bu hizmetler cihazınızdaki bu özelliklerin fonksiyonel olmasını sağlar.
 
-Xbox Live’a tekrar giriş yapmayı deneyin.
+---
 
-Dijital kalemim çalışmıyor, neden?
-
-Bu durum genellikle Disable Windows Ink ayarıyla ilgilidir.
-
-Disable Windows Ink seçeneğini sıfırlayın.
-
-Bilgisayarınızı yeniden başlatın.
-
-Bu işlemden sonra dijital kaleminiz yeniden çalışacaktır.
-
-Pano geçmişim (Clipboard History) çalışmayı durdurdu, neden?
-
-Disable Cloud Clipboard ayarını sıfırlayın.
-
-Yeniden başlatma sonrası pano geçmişini kontrol edin.
-
-Phone Link uygulamam bir anda çalışmayı durdurdu!
-
-Enhance Privacy ayarını sıfırlayın.
-
-Bilgisayarınızı yeniden başlatın.
-
-Sensor Services’i devre dışı bırakmalı mıyım?
-
-Cihazınızın aşağıdaki özellikleri varsa Sensor Services’i devre dışı bırakmamanız önerilir:
-
-Tablet form faktörü
-
-Yakınlık / ortam ışığı sensörleri
-
-Dokunmatik ekran
-
-Otomatik parlaklık vb.
-
-Bu servisler bu özelliklerin çalışması için gereklidir.
-
-Umarız bu cevaplar sıkça karşılaşılan sorulara açıklık getirmiştir.
-Ek yardıma ihtiyacınız varsa destek ekibimizle iletişime geçmekten çekinmeyin.
+Umarız bu yanıtlar yaygın sorularınıza açıklık getirmiştir.  
+Daha fazla yardıma ihtiyacınız olursa lütfen destek ekibimizle iletişime geçmekten çekinmeyin.
