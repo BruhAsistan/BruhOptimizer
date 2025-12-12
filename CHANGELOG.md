@@ -1,3 +1,10 @@
+## [17.3] - 2025-12-12
+- Sürüm bilgisi 17.3’e güncellendi; güncel exe ile sol üstte doğru sürüm gösteriliyor.
+- Güncelleme denetimi kendi repo (BruhOptimizer) version.txt ve CHANGELOG.md adreslerine çekildi.
+- Windows 11’de sol menü başlığı artık “Windows 11” (Win10’da “Windows 10”) olarak görünüyor.
+- “Görev çubuğundaki hava durumunu gizle” togglesında yetki hataları yakalanıyor; uyarı verilip toggle geri alınıyor (çökme önlendi). 
+
+
 ## [17.0] - 2025-12-04
 - Yeni: Açılışta sistem durumunu okuyup ayarları otomatik senkronize ediyor (registry/hizmet tabanlı).
 - Yeni: Güncelleme denetimi GitHub’daki `version.txt` ve `Optimizer.exe` üzerinden; indirme sonrası eski exe otomatik kapanıp yenisi başlıyor.
