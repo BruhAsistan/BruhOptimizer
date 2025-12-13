@@ -98,7 +98,7 @@ Tüm komut satırı seçeneklerini **Command-line Options** dosyasında bulabili
 <h2>❓ Sıkça Sorulan Sorular</h2> 
 </center>
 
-Merak edilen soruların cevapları için **FAQ** bölümüne göz atabilirsiniz.
+Merak edilen soruların cevapları için **SSS** bölümüne göz atabilirsiniz.
 
 ---
 
@@ -133,8 +133,7 @@ Güvenlik açıkları ve bildirim süreci hakkında detaylı bilgi için **Secur
 </center>
 
 - Güncel sürüm: **BruhOptimizer 1.0**
-- Çıkış tarihi: **(senin release tarihin)**
-- SHA256: **(senin exe hash’in)**
+- Çıkış tarihi: **12.12.2025**
 
 ---
 
@@ -155,28 +154,7 @@ Geliştirme sürecini takip etmek ve destek almak için Discord topluluğumuza k
 ---
 
 <center>
-<h2>❤️ Katkıda Bulunanlar</h2>
-</center>
 
-- ByteSize – Omar Rahman  
-- ColorPicker – vadiscode  
-- BruhOptimizer geliştirme ve özelleştirme: **BruhDev**
-
----
-
-<center>
-<h2>❤️ Çeviriler</h2>
-</center>
-
-- Türkçe: **BruhDev**
-- İngilizce: Varsayılan
-- Diğer diller: Topluluk katkıları
-
----
-
-<center>
-<h2>❤️ Çeviri ile Katkı Sağla</h2>
-</center>
 
 Uygulamayı kendi diline çevirmek istiyorsan **EN.json** dosyasını çevirip Pull Request gönderebilirsin.  
 Dil adı ve ülke bayrağını eklemeyi unutma.
