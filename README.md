@@ -132,7 +132,7 @@ Güvenlik açıkları ve bildirim süreci hakkında detaylı bilgi için **Secur
 <h2>📊 Detaylar</h2> 
 </center>
 
-- Güncel sürüm: **BruhOptimizer 1.0**
+- Güncel sürüm: **17.4**
 - Çıkış tarihi: **12.12.2025**
 
 ---
