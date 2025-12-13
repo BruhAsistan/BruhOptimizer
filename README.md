@@ -143,7 +143,3 @@ Geliştirme sürecini takip etmek ve destek almak için Discord topluluğumuza k
 ---
 
 <center>
-
-
-Uygulamayı kendi diline çevirmek istiyorsan **EN.json** dosyasını çevirip Pull Request gönderebilirsin.  
-Dil adı ve ülke bayrağını eklemeyi unutma.
